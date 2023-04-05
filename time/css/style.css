@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/*
+font-family: 'M PLUS Code Latin', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/space.jpg);
+    background-color: #4c4c4c;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+#main-text,
+#time,
+#hours {
+    color: #fff;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
